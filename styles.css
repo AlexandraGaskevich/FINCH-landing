@@ -11,198 +11,268 @@ body {
     padding: 0;
     font-family: Helvetica Neue;
   }
-/* @media (min-width: 1440px) { */
-  section.mechanics {
-    width: 100vw;
-  }
+section.main {
+  width: 100vw;
+  height: 82.6vw;
+}
 
-  section.mechanics-main {
-    position: relative;
-    z-index: 10;
-  }
-
-  section.mechanics-pattern {
-    position: absolute;
-    margin: 0;
-    z-index: 9;
-  }
-
-  section.text-and-image {
-    display: grid;
-    grid-template-columns: 34.72vw 34.72vw;
-    grid-column-gap:18.86vw;
-    width: 86.8vw;
+section.main h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: #226EFF;
     margin: auto;
-    margin-top: 10.4vw;
-  }
+    text-align: center;
+    padding-top: 28vw;
+}
 
-  div.mechanics-text {
-    margin: auto;
-    width: 34.72vw;
-    line-height: 1.4;
-  }
+section.divider-one {
+  width: 100vw;
+  height: 60.76vw;
+  background-color: #EAF3FF;
+}
 
-  div.mechanics-text h1 {
-      font-size: 3.3vw;
-      font-weight: bold;
-      color: #226EFF;
-  }
+section.divider-one-content {
+  position: relative;
+  z-index: 1;
+  width: 93vw;
+  height: 60.76vw;
+  padding-left: 7vw;
+  display: grid;
+  grid-template-columns: 42vw 45.48vw;
+  grid-column-gap: 5.52vw;
+}
 
-  div.mechanics-text p {
-    padding-top: 1.736vw;
-      font-size: 1.67vw;
-      font-weight: normal;
-      color: #2E333A;
-  }
+div.divider-one-text {
+  margin: auto;
+}
 
-  div.mechanics-image {
-    width: 34.72vw;
-  }
+div.divider-one-text h1{
+  line-height: 1.1;
+  font-size: 4.44vw;
+  font-weight: bold;
+  color: #2E333A;
+}
 
-  div.mechanics-image img.mechanics-image-one{
-    position: absolute;
-    width: 26.04vw;
-    height: auto;
-    padding-left: 9.375vw;
-    z-index: 1;
-  }
+div.divider-one-text span{
+  color: #226EFF;
+}
 
-  div.mechanics-image img.mechanics-image-two{
-    position: relative;
-    width: 26.04vw;
-    height: auto;
-    padding-top: 9.375vw;
-    z-index: 0;
-  }
+div.divider-one-text p{
+  line-height: 1.4;
+  width: 34.7vw;
+  padding-top: 1.736vw;
+  color: #2E333A;
+  font-size: 1.25vw;
+}
 
-  div.mechanics-image img.mechanics-image-three{
-    position: absolute;
-    width: 26.04vw;
-    height: auto;
-    padding-left: 9.375vw;
-    z-index: 1;
-  }
+div.divider-one-image {
+  margin: auto;
+}
 
-  div.mechanics-image img.mechanics-image-four{
-    position: relative;
-    width: 26.04vw;
-    height: auto;
-    padding-top: 5.9vw;
-    z-index: 0;
-  }
+div.divider-one-image img{
+  width: 45.48vw;
+  height: auto;
+}
 
-  section.text-and-image-unique {
-    display: grid;
-    grid-template-columns: 42.7vw 44.09vw;
-    grid-column-gap: 0;
-    width: 86.8vw;
-    margin: auto;
-    margin-top: 10.4vw;
-  }
+section.divider-one-background {
+  position: absolute;
+  z-index: 0;
+}
 
-  section.text-and-image-unique div.mechanics-text {
-    width: 42.7vw;
-    margin-top: 1.736vw;
-    z-index: 1;
-  }
+section.divider-one-background img{
+  width: 93vw;
+  padding-left: 7vw;
+  padding-top: 25.2vw;
+}
 
-  section.text-and-image-unique div.mechanics-image {
-    width: 60.069vw;
-    margin-left: -15.97vw;
-    z-index: 0;
-  }
+section.mechanics {
+  width: 100vw;
+}
 
-  div.mechanics-image img.mechanics-image-five{
-    position: absolute;
-    width: 26.04vw;
-    height: auto;
-    padding-left: 34.02vw;
-    z-index: 1;
-  }
+section.mechanics-main {
+  position: relative;
+  z-index: 10;
+}
 
-  div.mechanics-image img.mechanics-image-six{
-    position: relative;
-    width: 55.56vw;
-    height: auto;
-    padding-top: 30.2vw;
-    z-index: 0;
-  }
+section.mechanics-pattern {
+  position: absolute;
+  margin: 0;
+  z-index: 9;
+}
 
-  section.mechanics-pattern img.pattern-one {
-    width: 10.76vw;
-    position: absolute;
-    margin-top: -2.78vw;
-  }
+section.text-and-image {
+  display: grid;
+  grid-template-columns: 34.72vw 34.72vw;
+  grid-column-gap:18.86vw;
+  width: 86.8vw;
+  margin: auto;
+  margin-top: 10.4vw;
+}
 
-  section.mechanics-pattern img.pattern-two {
-    width: 34.02vw;
-    margin-left: 65.97vw;
-    position: absolute;
-    margin-top: -6.25vw;
-  }
+div.mechanics-text {
+  margin: auto;
+  width: 34.72vw;
+  line-height: 1.4;
+}
 
-  section.mechanics-pattern img.pattern-three {
-    width: 29.375vw;
-    margin-left: 41.319vw;
-    position: absolute;
-    margin-top: 27.08vw;
-  }
+div.mechanics-text h1 {
+    font-size: 3.3vw;
+    font-weight: bold;
+    color: #226EFF;
+}
 
-  section.mechanics-pattern img.pattern-four {
-    width: 25.486vw;
-    margin-left: 1.736vw;
-    position: absolute;
-    margin-top: 36.8vw;
-  }
+div.mechanics-text p {
+  padding-top: 1.736vw;
+  font-size: 1.67vw;
+  font-weight: normal;
+  color: #2E333A;
+}
 
-  section.mechanics-pattern img.pattern-five {
-    width: 27.08vw;
-    margin-left: 0px;
-    position: absolute;
-    margin-top: 48.6vw;
-  }
+div.mechanics-image {
+  width: 34.72vw;
+}
 
-  section.mechanics-pattern img.pattern-six {
-    width: 19.16vw;
-    margin-left: 76.38vw;
-    position: absolute;
-    margin-top: 62.6vw;
-  }
+div.mechanics-image img.mechanics-image-one{
+  position: absolute;
+  width: 26.04vw;
+  height: auto;
+  padding-left: 9.375vw;
+  z-index: 1;
+}
 
-  section.mechanics-pattern img.pattern-seven {
-    width: 21.73vw;
-    margin-left: 29.86vw;
-    position: absolute;
-    margin-top: 92.36vw;
-  }
+div.mechanics-image img.mechanics-image-two{
+  position: relative;
+  width: 26.04vw;
+  height: auto;
+  padding-top: 9.375vw;
+  z-index: 0;
+}
 
-  section.mechanics-pattern img.pattern-eight {
-    width: 13.26vw;
-    margin-left: 75.69vw;
-    position: absolute;
-    margin-top: 108.3vw;
-  }
+div.mechanics-image img.mechanics-image-three{
+  position: absolute;
+  width: 26.04vw;
+  height: auto;
+  padding-left: 9.375vw;
+  z-index: 1;
+}
 
-  section.mechanics-pattern img.pattern-nine {
-    width: 19.4vw;
-    margin-left: 52.7vw;
-    position: absolute;
-    margin-top: 136.1vw;
-  }
+div.mechanics-image img.mechanics-image-four{
+  position: relative;
+  width: 26.04vw;
+  height: auto;
+  padding-top: 5.9vw;
+  z-index: 0;
+}
 
-  section.mechanics-pattern img.pattern-ten {
-    width: 32.29vw;
-    margin-left: 67.7vw;
-    position: absolute;
-    margin-top: 122.22vw;
-  }
+section.text-and-image-unique {
+  display: grid;
+  grid-template-columns: 42.7vw 44.09vw;
+  grid-column-gap: 0;
+  width: 86.8vw;
+  margin: auto;
+  margin-top: 10.4vw;
+}
 
-  section.mechanics-pattern img.pattern-eleven {
-    width: 17vw;
-    margin-left: 0px;
-    position: absolute;
-    margin-top: 157.63vw;
-  }
+section.text-and-image-unique div.mechanics-text {
+  width: 42.7vw;
+  margin-top: 1.736vw;
+  z-index: 1;
+}
 
+section.text-and-image-unique div.mechanics-image {
+  width: 60.069vw;
+  margin-left: -15.97vw;
+  z-index: 0;
+}
 
+div.mechanics-image img.mechanics-image-five{
+  position: absolute;
+  width: 26.04vw;
+  height: auto;
+  padding-left: 34.02vw;
+  z-index: 1;
+}
+
+div.mechanics-image img.mechanics-image-six{
+  position: relative;
+  width: 55.56vw;
+  height: auto;
+  padding-top: 30.2vw;
+  z-index: 0;
+}
+
+section.mechanics-pattern img.pattern-one {
+  width: 10.76vw;
+  position: absolute;
+  margin-top: 5.5vw;
+}
+
+section.mechanics-pattern img.pattern-two {
+  width: 34.02vw;
+  margin-left: 65.97vw;
+  position: absolute;
+  margin-top: 4.2vw;
+}
+
+section.mechanics-pattern img.pattern-three {
+  width: 29.375vw;
+  margin-left: 41.319vw;
+  position: absolute;
+  margin-top: 37.6vw;
+}
+
+section.mechanics-pattern img.pattern-four {
+  width: 25.486vw;
+  margin-left: 1.736vw;
+  position: absolute;
+  margin-top: 46.4vw;
+}
+
+section.mechanics-pattern img.pattern-five {
+  width: 27.08vw;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 58.6vw;
+}
+
+section.mechanics-pattern img.pattern-six {
+  width: 19.16vw;
+  margin-left: 76.38vw;
+  position: absolute;
+  margin-top: 72.6vw;
+}
+
+section.mechanics-pattern img.pattern-seven {
+  width: 21.73vw;
+  margin-left: 29.86vw;
+  position: absolute;
+  margin-top: 102.8vw;
+}
+
+section.mechanics-pattern img.pattern-eight {
+  width: 13.26vw;
+  margin-left: 75.69vw;
+  position: absolute;
+  margin-top: 119.3vw;
+}
+
+section.mechanics-pattern img.pattern-nine {
+  width: 19.4vw;
+  margin-left: 52.7vw;
+  position: absolute;
+  margin-top: 147.6vw;
+}
+
+section.mechanics-pattern img.pattern-ten {
+  width: 32.29vw;
+  margin-left: 67.7vw;
+  position: absolute;
+  margin-top: 133.22vw;
+}
+
+section.mechanics-pattern img.pattern-eleven {
+  width: 17vw;
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 165vw;
 }
