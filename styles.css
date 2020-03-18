@@ -276,3 +276,30 @@ section.mechanics-pattern img.pattern-eleven {
   position: absolute;
   margin-top: 165vw;
 }
+
+section.divider-two {
+  position: relative;
+  z-index: 11;
+  width: 100vw;
+  height: 57vw;
+  margin-top: 8.4vw;
+}
+
+section.divider-two-background img {
+  width: 100vw;
+}
+
+section.divider-two h1{
+  width: 45.1vw;
+  font-size: 4.4vw;
+  position: absolute;
+  z-index: 12;
+  margin-top: -20vw;
+  margin-left: 6.9vw;
+  font-weight: bold;
+  color: #2E333A;
+}
+
+section.divider-two span{
+  color: #226EFF;
+}
