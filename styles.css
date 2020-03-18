@@ -298,6 +298,7 @@ section.divider-two h1{
   margin-left: 6.9vw;
   font-weight: bold;
   color: #2E333A;
+  line-height: 1.1;
 }
 
 section.divider-two span{
@@ -334,6 +335,7 @@ div.footer-text h1{
   text-align: center;
   font-weight: bold;
   color: #226EFF;
+  line-height: 1.2;
 }
 
 div.footer-text img {
