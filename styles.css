@@ -303,3 +303,41 @@ section.divider-two h1{
 section.divider-two span{
   color: #226EFF;
 }
+
+section.stories {
+  width: 100vw;
+  height: 50vw;
+}
+
+section.footer {
+  width: 100vw;
+  height: 59.7vw;
+  background-color: #EAF3FF;
+}
+
+div.footer-background img{
+  width: 100vw;
+  height: 54.86vw;
+  margin-top: 4.84vw;
+}
+
+div.footer-text {
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  margin-top: -50vw;
+}
+
+div.footer-text h1{
+  font-size: 4.4vw;
+  z-index: 12;
+  text-align: center;
+  font-weight: bold;
+  color: #226EFF;
+}
+
+div.footer-text img {
+  width: 18vw;
+  margin-left: 41vw;
+  padding-top: 5.56vw;
+}
