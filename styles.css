@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import "reset.css";
+
+body {
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue;
+  }
+@media (min-width: 1440px) {
+  section.mechanics {
+    width: 100vw;
+  }
+
+  section.mechanics-main {
+    position: relative;
+    z-index: 10;
+  }
+
+  section.mechanics-pattern {
+    position: absolute;
+    margin: 0;
+    z-index: 9;
+  }
+
+  section.text-and-image {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 250px;
+    width: 1250px;
+    margin: auto;
+    margin-top: 150px;
+  }
+
+  div.mechanics-text {
+    margin: auto;
+    width: 505px;
+    line-height: 1.4;
+  }
+
+  div.mechanics-text h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #226EFF;
+  }
+
+  div.mechanics-text p {
+    padding-top: 25px;
+      font-size: 24px;
+      font-weight: normal;
+      color: #2E333A;
+  }
+
+  div.mechanics-image {
+    width: 500px;
+  }
+
+  div.mechanics-image img.mechanics-image-one{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    padding-left: 135px;
+    z-index: 1;
+  }
+
+  div.mechanics-image img.mechanics-image-two{
+    position: relative;
+    width: 375px;
+    height: auto;
+    padding-top: 135px;
+    z-index: 0;
+  }
+
+  div.mechanics-image img.mechanics-image-three{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    padding-left: 135px;
+    z-index: 1;
+  }
+
+  div.mechanics-image img.mechanics-image-four{
+    position: relative;
+    width: 375px;
+    height: auto;
+    padding-top: 85px;
+    z-index: 0;
+  }
+
+  section.text-and-image-unique {
+    display: grid;
+    grid-template-columns: 615px 635px;
+    grid-column-gap: 0;
+    width: 1250px;
+    margin: auto;
+    margin-top: 150px;
+  }
+
+  section.text-and-image-unique div.mechanics-text {
+    width: 615px;
+    margin-top: 25px;
+    z-index: 1;
+  }
+
+  section.text-and-image-unique div.mechanics-image {
+    width: 865px;
+    margin-left: -230px;
+    z-index: 0;
+  }
+
+  div.mechanics-image img.mechanics-image-five{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    padding-left: 490px;
+    z-index: 1;
+  }
+
+  div.mechanics-image img.mechanics-image-six{
+    position: relative;
+    width: 800px;
+    height: auto;
+    padding-top: 435px;
+    z-index: 0;
+  }
+
+  section.mechanics-pattern img.pattern-one {
+    width: 155px;
+    position: absolute;
+    margin-top: -40px;
+  }
+
+  section.mechanics-pattern img.pattern-two {
+    width: 490px;
+    margin-left: 950px;
+    position: absolute;
+    margin-top: -90px;
+  }
+
+  section.mechanics-pattern img.pattern-three {
+    width: 423px;
+    margin-left: 595px;
+    position: absolute;
+    margin-top: 390px;
+  }
+
+  section.mechanics-pattern img.pattern-four {
+    width: 367px;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: 530px;
+  }
+
+  section.mechanics-pattern img.pattern-five {
+    width: 390px;
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 700px;
+  }
+
+  section.mechanics-pattern img.pattern-six {
+    width: 276px;
+    margin-left: 1100px;
+    position: absolute;
+    margin-top: 900px;
+  }
+
+  section.mechanics-pattern img.pattern-seven {
+    width: 313px;
+    margin-left: 430px;
+    position: absolute;
+    margin-top: 1330px;
+  }
+
+  section.mechanics-pattern img.pattern-eight {
+    width: 191px;
+    margin-left: 1090px;
+    position: absolute;
+    margin-top: 1560px;
+  }
+
+  section.mechanics-pattern img.pattern-nine {
+    width: 280px;
+    margin-left: 760px;
+    position: absolute;
+    margin-top: 1960px;
+  }
+
+  section.mechanics-pattern img.pattern-ten {
+    width: 465px;
+    margin-left: 975px;
+    position: absolute;
+    margin-top: 1760px;
+  }
+
+  section.mechanics-pattern img.pattern-eleven {
+    width: 245px;
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 2270px;
+  }
+
+
+}
