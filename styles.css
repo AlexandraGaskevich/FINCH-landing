@@ -307,6 +307,8 @@ section.divider-two span{
 
 section.stories {
   width: 100vw;
+  position: relative;
+  z-index: 10;
 }
 
 section.stories h1{
@@ -335,6 +337,7 @@ section.stories-content-one {
 
 div.stories-image {
   width: 44.79vw;
+  z-index: 10;
 }
 div.stories-image img{
   width: 44.79vw;
@@ -344,6 +347,7 @@ div.stories-text {
   width: 36.8vw;
   margin-left: 0;
   line-height: 1.4;
+  z-index: 10;
 }
 
 div.stories-text span{
@@ -396,6 +400,7 @@ div.stories-text-mirror{
   margin-left: 0;
   line-height: 1.4;
   padding-left: 7.99vw;
+  z-index: 10;
 }
 
 div.stories-text-mirror span{
@@ -437,6 +442,7 @@ div.stories-text-mirror a {
 
 div.stories-image-mirror {
   width: 44.79vw;
+  z-index: 10;
 }
 div.stories-image-mirror img{
   width: 44.79vw;
@@ -465,6 +471,34 @@ section.stories-content-five {
   width: 100vw;
   margin-top: 10.4vw;
   padding-bottom: 10.41vw;
+}
+
+section.stories-pattern {
+  position: absolute;
+  margin-top: -265vw;
+  z-index: 0;
+}
+
+section.stories-pattern img {
+  width: 50vw;
+}
+
+section.stories-pattern img.stories-pattern-two {
+  margin-top: -15vw;
+  margin-left: 50vw;
+}
+
+section.stories-pattern img.stories-pattern-three {
+  margin-top: -6vw;
+}
+
+section.stories-pattern img.stories-pattern-four {
+  margin-top: -6vw;
+  margin-left: 50vw;
+}
+
+section.stories-pattern img.stories-pattern-five {
+  margin-top: -15vw;
 }
 
 section.footer {
